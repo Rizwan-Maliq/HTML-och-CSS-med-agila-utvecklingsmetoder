@@ -1,0 +1,150 @@
+*  {
+    margin: 1;
+}
+body
+{
+color: black;
+font-size: 16px;
+background-color:brown;
+}
+main
+{
+    width: 100vw;
+    height: 100%;
+    max-width: 960px;
+    min-height: 400px;
+
+    background-color: blanchedalmond;
+}
+
+li
+{
+display:inline-block
+}
+li a
+{
+    display:inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+li a:hover
+{
+    background-color:brown;
+}
+li a:active
+{
+    
+}
+header
+{
+background-color: beige;
+width: 100vw;
+height: 10vh ;
+max-width: 960px;
+min-height: 100px;
+
+}
+h1
+{
+    color:blue; 
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: azure;
+}
+
+h2
+{
+    color:black;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: blueviolet;
+}
+
+p
+
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:darkolivegreen
+    font-weight: 800;
+article
+
+{
+    display: flex;
+    
+}
+
+aside
+
+{
+    flex: 33vw;
+    width: 75vw;
+    height: 10vw;
+    background-color:aqua;
+
+}
+
+aside
+
+{
+    width: 20;
+    float: right;
+    font-size:larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: olive;
+
+}
+
+.aside2
+
+{
+    background-color: blue;
+
+}
+
+figure{
+    height: 200px;
+    width: 200px;
+    background-color: aliceblue;
+}
+@media (max-width: 800px) 
+
+header{
+    display: none;
+}
+{
+    article
+
+    {
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+}
+
+}
+
+section
+{
+
+    font-size:medium;
+    background-color:darkgoldenrod;
+
+}
+
+.green
+
+{
+    background-color: chartreuse;
+}
+
+#Biffcurry
+
+{
+    color: brown;
+
+}
