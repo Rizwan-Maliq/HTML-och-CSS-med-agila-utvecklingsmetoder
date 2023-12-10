@@ -1,0 +1,161 @@
+/* Reset default margin, padding, and box-sizing for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    text-align: center;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* Header styles */
+header {
+    height: 10vw;
+    background-color: rgb(185, 147, 192);
+    position: fixed;
+    width: 100%;
+    max-width: 960px;
+}
+
+/* Navigation styles */
+nav {
+    background-color: maroon;
+    position: sticky;
+    top: 0;
+}
+
+/* Navigation unordered list styles */
+nav ul {
+    list-style-type: none; 
+    overflow: hidden; 
+    list-style: circle; 
+    padding: 0; 
+    flex: inline; /* Use flexbox for layout */
+    justify-content: space-around;
+    flex-direction: column; 
+    align-items: center;  
+}
+I 
+/* unordered list styles */
+ul {
+    list-style-type: none; 
+    overflow: hidden; 
+}
+
+/* List item styles */
+li {
+    display: inline; /* Display list items in a line */
+}
+
+/* Styles within list items */
+li a {
+    display: block; 
+    text-align: center; 
+    padding: 14px 16px; 
+    text-decoration: none; 
+}
+
+/* Hover state styles for anchors */
+li a:hover {
+    background-color: black; 
+}
+
+/* Active state styles for anchors */
+li a:active {
+    background-color: darkorange; 
+}
+
+/* Styles for anchors within navigation */
+nav a {
+    text-decoration: none; 
+    color: #fff; 
+    padding: 1em; 
+    font-weight: bold; 
+}
+
+/* List item styles within the navigation */
+nav li {
+    display: inline-flex; 
+    margin-right: 20px; 
+}
+
+/* Main content styles */
+main {
+    background-color: rgb(177, 198, 237);
+    text-align: left;
+    padding-top: 10vw; 
+}
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto; 
+    background-color: turquoise;
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Paragraph styles */
+p {
+    text-align: left;
+    margin-bottom: 50px;
+    padding: 0;
+}
+
+/* Article styles */
+article {
+    display: flex;
+    flex-direction: column;
+    margin: 60px;   
+}
+
+/* Figure styles */
+figure {
+    height: 210px;
+    width: 210px;
+    background-color: #f4f4f4;
+    margin-bottom: 100px;
+    border-style: double;
+    border-width: 5px;
+    margin: 10% 10% 10% 10%;
+}
+
+/* Form styles */
+form {
+    margin-top: 40px;
+}
+
+/* Newsletter styles */
+#newsletter {
+    background-color: #f4f4f4;
+    padding: 0px;
+    text-align: justify;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+/* Iframe styles */
+iframe {
+    display: block;
+    margin: auto;
+    padding: 40px;
+    border: #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
