@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>startsida</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@100&family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <script src="meny.js"></script>
+
+    <main>
+
+        </div>
+        <article>
+            <h1 class="heading">Anmäl dig här </h1>
+            <p class="headings-text">Om du vill anmäla ett tillstånd till kommunen, till exempel för att bygga, renovera, starta en verksamhet eller arrangera ett evenemang, måste du följa vissa regler och rutiner. Du kan hitta information om olika typer av tillstånd och hur
+                du ansöker om dem på kommunens webbplats. Där kan du också ladda ner blanketter och se vilka avgifter som gäller. Om du har frågor eller behöver hjälp med din ansökan kan du kontakta kommunens kundtjänst eller besöka stadshuset under öppettiderna.
+            </p>
+        </article>
+        <aside class="news">
+            <div class="news">
+
+                <h1 id="h1aside">
+                    Här nedan kan du anmäla dig
+                </h1>
+                <hr>
+
+                <h2 id="h2aside">
+                    Använd vår fornmulär här nedan
+                </h2>
+            </div>
+
+            <div class="container">
+                <form action="/action_page.php">
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="fname">Förnamn</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="fname" name="firstname" placeholder="Förnamn">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="lname">Efternamn</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="lname" name="lastname" placeholder="Efternamn">
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="adress">Adress</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="adress" name="adress" placeholder="Adress">
+                            </div>
+                            <div class="row">
+                                <div class="col-25">
+                                    <label for="phone">Telefon</label>
+                                </div>
+                                <div class="col-75">
+                                    <input type="text" id="phone" name="phone nr" placeholder="Telefonnummer">
+                                </div>
+                                <div class="row">
+                                    <div class="col-25">
+                                        <label for="email">E-mail</label>
+                                    </div>
+                                    <div class="col-75">
+                                        <input type="text" id="email" name="E-mail" placeholder="Your E-mail">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-25">
+                                        <label for="arena">Tillstånd/label>
+                                    </div>
+                                    <div class="col-75">
+                                        <select id="arena" name="arena">
+                          <option value="bygg">Bygglov</option>
+                          <option value="forskola">Förskola</option>
+                          <option value="tomtko">Tillstånd för tomt</option>
+                          <option value="vuxenutbildning">Vuxenutbildning</option>
+                          <option value="jourhem">Jour hem</option>
+                          <option value="hemtjanst">Hemtjänst</option>
+                          <option value="fritidshem">Fritidshem</option>
+                          <option value="lokaler">Hyr en lokal</option>
+                          <option value="boendeparkering">Boendeparkering</option>
+                          <option value="batplats">Båtplats</option>
+                        </select>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-25">
+                                        <label for="subject">Meddelande</label>
+                                    </div>
+                                    <div class="col-75">
+                                        <textarea id="subject" name="subject" placeholder="Skriv här" style="height:200px"></textarea>
+                                    </div>
+                                </div>
+
+                                <label for="datemin">Skriv in datum start</label>
+                                <input type="date" id="datemin" name="datemin" min="2000-01-02"><br><br>
+
+                                <label for="datemax">Slutdatum</label>
+                                <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
+                                <div class="row">
+                                    <input type="submit" value="Submit">
+                                </div>
+                </form>
+                </div>
+        </aside>
+    </main>
+
+
+</body>
+
+</html>

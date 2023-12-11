@@ -1,0 +1,462 @@
+body,
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.news-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+.news-box {
+    width: 350px;
+    background-color: #817373;
+    border: 1 px solid #ffffff;
+    margin: 20px;
+}
+.news-img {
+    width: 100%;
+    height: auto;
+}
+
+.news-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.searchbar {
+    text-align: center;
+    padding: 6px;
+    border: none;
+    margin-top: 100px;
+    font-size: 12px;
+}
+
+.searchbar input[type=text] {
+    width: 35%;
+    height: 40%;
+    font-size: 22px;
+    border-radius: 30px;
+}
+.news-text {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.news-text span {
+    font-size: clamp(0.75rem, 0.3737rem + 1.7204vw, 1.75rem);
+}
+
+.news-text h3 {
+    font-size: clamp(0.75rem, 0.5148rem + 1.0753vw, 1.375rem);
+    margin-top: 5px;
+    color: #272727;
+}
+.news-text p {
+    font-size: clamp(0.6875rem, 0.4993rem + 0.8602vw, 1.1875rem);
+    margin: 20px 0px;
+}
+.news-text a {
+    font-size: clamp(0.75rem, 0.5148rem + 1.0753vw, 1.375rem);
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+}
+.news-text a:hover {
+    font-weight: bolder;
+}
+.news {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.news-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+
+.news-img {
+    width: 100%;
+    height: auto;
+}
+
+.news-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.news-text {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+/* Styling for 'kultur-fritid' section */
+#kultur-fritid {
+    background-color: #FFD700;
+  }
+  
+  /* Styling for 'tekniska-kontoret' section */
+  #tekniska-kontoret {
+    background-color: #00BFFF;
+  }
+  
+  /* Styling for 'utbildningsforvaltningen' section */
+  #utbildningsforvaltningen {
+    background-color: #90EE90;
+  }
+  
+  /* Styling for 'socialforvaltningen' section */
+  #socialforvaltningen {
+    background-color: #FF6347;
+  }
+  
+  /* Styling for 'raddningstjansten' section */
+  #raddningstjansten {
+    background-color: #9370DB;
+  }
+  
+  /* Styling for 'stadskontoret' section */
+  #stadskontoret {
+    background-color: #FFA07A;
+  }
+  /* Member list styles */
+.member-list {
+    padding: 0;
+    list-style-type: none;
+  }
+
+  /* Styles for each list item in the member list */
+  .member-list li {
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+
+  .section-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Additional styles for general sections within the container */
+.section {
+  text-align: center;
+}
+
+.news-text span {
+    font-size: clamp(0.75rem, 0.3737rem + 1.7204vw, 1.75rem);
+}
+
+.news-text h3 {
+    font-size: clamp(0.75rem, 0.5148rem + 1.0753vw, 1.375rem);
+    margin-top: 5px;
+    color: #272727;
+}
+.news-text p {
+    font-size: clamp(0.6875rem, 0.4993rem + 0.8602vw, 1.1875rem);
+    margin: 20px 0px;
+}
+.news-text a {
+    font-size: clamp(0.75rem, 0.5148rem + 1.0753vw, 1.375rem);
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+}
+.news-text a:hover {
+    font-weight: bolder;
+}
+
+/* navbar & Header */
+header {
+  background-color: #8b8484;
+  color: #ffffff;
+  padding: 20px 01;
+}
+.flex-aside{
+    border-radius: 36px;
+    margin-bottom: 10vh;
+    margin-left: 20px;
+    padding: 20px;
+}
+.flex-aside p{
+font-size: 1rem;
+}
+footer {
+  background-color: #706a6a;
+  color: #fff;
+  padding: 20px 5%;
+}
+
+.illustration{
+  
+  height: 400px;
+  margin-top: 50px;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 20px;
+}
+/*  logo */
+.logo img {
+  height: 50px;
+}
+
+/* menu */
+.menu {
+  list-style: none;
+  display: flex;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/*  menu hover  */
+.menu a:hover {
+  color: #ffff;
+}
+
+.menu-bar {
+  display: none;
+}
+
+/* first section p1 style  */
+.hero {
+  background-image: url("img/sunrise-8235461_1280.webp");
+  background-size: cover;
+  background-position: center;
+  color: #ffff;
+  text-align: center;
+  padding: 100px 0;
+}
+span {
+  color: #5bb0aa;
+}
+/*  hero content */
+.hero-content {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 7px;
+  background-color: rgba(11, 11, 11, 0.7);
+}
+/*  h2 in the hero section */
+.hero h2 {
+  font-size: 30px;
+  margin-bottom: 5px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+/* des in the hero section */
+.hero p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+/*  btn in the hero section */
+.btn {
+  width: 150px;
+  padding: 10px;
+  background-color: #102221;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+/*btn hover */
+.btn:hover {
+  background-color: #ffffff;
+  color: #0b0a0a;
+}
+/* --------------------- Hem------------------------- */
+.section-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 40px;
+}
+
+.icon i {
+  width: 50px;
+  height: 50px;
+  color: #5ba5a0;
+}
+
+h3 {
+  margin-top: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+/* -------------------------My first section----------------------------------------- */
+.my-first-section{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  max-width: 500px;
+  margin: 10px auto;
+}
+.my-first-section p{
+  font-size: 20px;
+}
+.linkedin{
+  text-align: center;
+  font-size: large;
+  
+}
+
+.footerlank {
+    margin-left: 3%;
+}
+/* ------------------------- p2 My second section----------------------------------------- */
+.my-second-section{
+  display: block;
+  justify-content: center;
+  gap: 30px;
+  max-width: 500px;
+  margin: 10px auto;
+}
+.my-first-section p{
+  font-size: 20px;
+}
+.video{
+
+   display: b;
+   margin: auto;
+   margin-left: 50vw;
+   transform: translate(-75%);
+   justify-content: center; 
+}
+.person-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+ /* --------------------- Kontakta mig section------------------------- */
+ .container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  text-align: center;
+}
+label {
+  display: block;
+  text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  width: 50px;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/* ------------------------- p4 person----------------------------------------- */
+
+.person{
+  display: block;
+  justify-content: center;
+  gap: 30px;
+  max-width: 500px;
+  margin: 10px auto;
+}
+.person p{
+  font-size: 20px;
+}
+
+/* ////////Mobile style ////// */
+
+@media screen and (max-width: 768px) {
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 14px;
+  }
+
+  /* ----p1----- */
+  .menu {
+    display: none;
+  }
+  .menu-bar {
+    display: flex;
+  }
+  .menu-bar ul {
+    list-style: none;
+  }
+  
+  .menu-bar li {
+    margin-right: 20px;
+  }
+
+  .menu-bar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: normal;
+    font-size: 14px;
+  }
+
+  /*  menu hover  */
+  .menu-bar a:hover {
+    color: #ffff;
+  }
+  .my-first-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    max-width: 400px;
+    margin: 10px auto;
+  }
+  .video{
+    width: auto;
+    display: b;
+    margin: auto;
+    margin-left: 50vw;
+    transform: translate(-75%);
+    justify-content: center; 
+ }
+}
