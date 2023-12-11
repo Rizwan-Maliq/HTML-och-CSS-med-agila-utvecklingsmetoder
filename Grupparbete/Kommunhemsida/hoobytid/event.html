@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evenomang</title>
+    <link rel="stylesheet" href="event-style.css">
+    <link rel="icon" type="image/x-icon" href="./Logo/HobbyTid-logos_transparent-nav.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100;200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+   <!--HEADER-->
+   <section>
+    <header class="header">
+        <nav>
+             <a href="index.html"><img src="./Logo/HobbyTid-logos_transparent-nav.png" alt=""></a>
+        </nav>             
+    </header>
+    <div class="nav-link">
+        <ul>
+            <li><a href="meeting-places.html">MÖTESPLATSER</a><span>/</span></li>
+            <li><a href="event.html">EVENOMANG</a><span>/</span></li>
+            <li><a href="activities.html">UTRUSTNING</a></li>
+        </ul>
+    </div>   
+   
+</section>
+    <section class="title">
+        <h1>EVENOMANG</h1>
+
+    </section>
+    <main>
+        <section>
+
+        </section>
+        <section class="into-p">
+            <p>På Fritidsgården väntar en värld full av ungdomsvänlig underhållning. Upplev dans, nöjesparker, sport och
+                musikfestivaler, allt inom räckhåll. Oavsett om du är fascinerad av dansens konst, sugen på
+                adrenalinfyllda äventyr på nöjesparken, entusiastiskt hejar på ditt favoritlag eller vill dansa loss
+                till den senaste musiken på festival, så har vi något för dig. Gör dig redo att fördjupa dig i spännande
+                upplevelser skräddarsydda för unga och unga i sinnet – allt på Fritidsgården.</p>
+
+        </section>
+
+        <article class="main-article">
+            <article class="container">
+                <article class="event">
+                    <figure>
+                        <img src="Images2/music.jpg" alt="musikfestival">
+                    </figure>
+                    <article>
+                        <h2>Musikfestival</h2>
+                        <p class="date">Datum: 30 oktober 2023</p>
+                        <p class="time">Tid: 18:00 - 23:00</p>
+                        <p class="description">En fantastisk musikfestival med liveuppträdanden från kända artister över
+                            hela
+                            världen.</p>
+                    </article>
+                </article>
+
+                <article class="event">
+                    <figure>
+                        <img src="Images2/sport.jpg" alt="sport">
+                    </figure>
+                    <article>
+                        <h2>Sportturnering</h2>
+                        <p class="date">Datum: 5 december 2023</p>
+                        <p class="time">Tid: 09:00 - 16:00</p>
+                        <p class="description">En intensiv sportturnering med deltagare från hela regionen. Kom och heja
+                            på
+                            ditt favoritlag!</p>
+                    </article>
+                </article>                
+                
+                <article class="event">
+                    <figure>
+                        <img src="Images2/dance.jpg" alt="dansshow">
+                    </figure>
+                    <article>
+                        <h2>Dansshow</h2>
+                        <p class="date">Datum: 10 mars 2024</p>
+                        <p class="time">Tid: 19:00 - 22:00</p>
+                        <p class="description">En spektakulär dansshow med professionella dansare som bjuder på en
+                            minnesvärd
+                            upplevelse.</p>
+                    </article>
+                </article>
+            </article>
+        </article>
+        
+        <section>
+            <h1>Anmäl dig</h1>
+        </section>
+        <article class="container-form">           
+            <section class="form-section">
+                <form action="/submit" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="email">Ålder:</label>
+                    <input type="number" id="age" name="age" max="22" min="7">
+                    
+                    <label for="activite">Activitet:</label>
+                    <select id="activite" name="activite">
+                        <option value="musikfestival">--</option>
+                        <option value="musikfestival">Musikfestival</option>
+                        <option value="sportturnering">Sportturnering</option>
+                        <option value="dansshow">Dansshow</option>
+                   </section>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" cols="50" placeholder="Skrev meddelande..."></textarea>
+
+            <input type="submit" value="Submit">
+            </form>
+
+            </section>
+        </article>
+
+    </main>
+
+    <footer>
+        <section class="social-media">
+           <a href="#"><img src="Icon/facebook.png" alt=""></a>
+            <a href="#"><img src="Icon/instagram.png" alt=""></a>
+        </section>
+        <address>74 Pondgatan, WEBGENIUS, 02184 • (703) 42-6961</address>
+        <p>Oppittder Mon till Fredag - 17:00 till 19:00 <span>Helg Stängd</span></p>
+        <p>HOOBYTID || Designed By: Khalid &copy; 2023</p>
+    </footer>
+</body>
+
+</html>

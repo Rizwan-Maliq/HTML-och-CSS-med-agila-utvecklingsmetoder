@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playpen Sans', cursive;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: radial-gradient(circle, rgba(212, 212, 212, 1) 0%, rgba(211, 211, 212, 1) 63%, rgba(187, 195, 204, 1) 100%);
+
+}
+
+/*-- header/ navigation--*/
+.header {
+    min-height: 20vh;
+}
+body span{
+   margin: 5px;
+}
+
+nav {
+    display: flex;
+    padding: 2% 2%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+nav img {
+    width: 200px;
+    height: auto;
+
+}
+
+
+.nav-link {
+    padding: 6px;
+    text-align: center ; 
+    border-bottom: 1px solid gray;
+    line-height: 1.8em;  
+    font-size: 15px;
+    letter-spacing: .02em;
+}
+.nav-link ul li a{
+    font-size: 16px;
+    font-weight: 900;
+    color: black;
+    text-decoration: none;
+}
+.nav-link ul li a:hover {
+    transition: 0.5s;
+    color:#060
+}
+
+.nav-link ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+/*- title css-*/
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+    background-image: linear-gradient(rgba(4, 9, 30, 1), rgba(4, 9, 30, 0.7)), url(images2/mission_background.jpg);
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.title h1 {
+    font-size: 40px;
+    
+
+}
+
+.title p {
+    font-size: 15px;
+    margin: 1px 0 30px;
+    padding-top: 10px;
+
+}
+/*- div-block-*/
+.block{
+    padding-top: 12px;
+    padding-bottom: 12px;
+   
+}
+/*- main css-*/
+main p, button {
+    line-height: 1.8em;  
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: .02em;
+    padding: 10px 0px;
+}
+.mission{
+    text-align: center;
+    max-width: 650px; 
+    margin: auto;
+}
+.mission h1{
+    color: #009;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1.5em;
+    margin-top: 40px;
+   
+}
+.mission p{
+    margin-bottom: 20px;   
+}
+.mission .matto em{
+    color: #060;
+    font-size: 21px;
+
+}
+
+
+
+/*- image container-*/
+main .container h2{
+    color: #060;
+    padding: 10px;
+    letter-spacing: .03em;
+    line-height: 1.2em;
+
+}
+img{    
+    width: 100%;
+    height: auto;
+}
+main .container{
+    width: 80%;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    justify-content: center;    
+    margin: 25px;
+    border-radius: 5px;
+    max-width: 1200px;
+    margin: auto;
+    flex-flow: row wrap; 
+    align-content: flex-start; 
+    margin-bottom: 20px;
+    
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 33%;
+    border-radius: 10px;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+.container .card-btn{
+    padding:8px 16px ;
+    font-size: 11px;
+    border-radius: 3px;
+    border: 2px solid #060;
+    background-color: transparent;
+    color: #060;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-weight: 600;
+
+}
+.container .card-btn:hover{
+    color: #fff;
+    background-color: #060;
+}
+
+/*- form css-*/
+.form-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(228, 225, 225, 0.3);
+    margin-bottom: 30px;
+}
+.form-container h2{
+    margin: 15px 0px;
+    padding: unset;
+}
+.form-container p{
+    margin: 15px 0px ;
+    padding: 0px;
+}
+
+.form-container input{
+    margin:6px 3px;
+    padding: 1em;
+    background: #fff;
+    border: 1px solid rgba(34, 33, 33, 0.12);
+    font-family: inherit;
+    font-size: 15px;
+    line-height: normal;
+    outline: none;
+}
+.form-container .submit-btn{
+    padding: 10px 20px;
+    border: 2px solid #000;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    margin: 15px;
+    border-radius: 3px;
+   }
+
+.form-container .submit-btn:hover{
+    color: #fff;
+    background-color: #000;
+   
+   
+}
+/*- footer css-*/
+footer{
+    border-top: 1px solid grey;
+    padding: 20PX;   
+    text-align: center;
+}
+footer .social-media{
+    margin-bottom: 20px;
+}
+footer .social-media img{
+    width: 30px;
+    height: auto;
+    margin: 5px;
+}
+footer p{
+    margin: 20PX 0PX;
+}
+
+
+@media(max-width: 420px){
+    .nav-link{        
+        text-align: center;
+        
+    }
+    .nav-link ul li a{
+        font-size: 12px;
+        font-weight: 700;
+        
+    }
+    .row{
+        flex-direction: column;
+    }
+    .title {
+        min-height: 50vh;
+    }
+}

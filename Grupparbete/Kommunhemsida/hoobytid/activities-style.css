@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playpen Sans', cursive;
+}
+
+body {
+    background: radial-gradient(circle, rgba(212, 212, 212, 1) 0%, rgba(211, 211, 212, 1) 63%, rgba(187, 195, 204, 1) 100%);
+}
+
+/*-- header/ navigation--*/
+.header {
+    min-height: 20vh;
+}
+body span{
+   margin: 5px;
+}
+
+nav {
+    display: flex;
+    padding: 2% 2%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+nav img {
+    width: 200px;
+    padding-left: 0;
+
+}
+
+.nav-link {
+    padding: 6px;
+    text-align: center ; 
+    border-bottom: 1px solid gray;
+    line-height: 1.8em;  
+    font-size: 15px;
+    letter-spacing: .02em;
+}
+.nav-link ul li a{
+    font-size: 16px;
+    font-weight: 900;
+    color: black;
+    text-decoration: none;
+}
+.nav-link ul li a:hover {
+    transition: 0.5s;
+    color:#060
+}
+
+.nav-link ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+
+.nav-link ul {
+    justify-content: center;
+}
+
+.nav-link ul li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    width: auto;
+    vertical-align: middle;
+    margin: auto;   
+}
+
+.nav-link ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/*- title css-*/
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+    background-image: linear-gradient(rgb(3, 11, 19), rgba(30, 16, 4, 0.7)), url(images2/MEETING.jpg);
+    min-height: 100vh;
+    width: 100%;
+    background-size:cover;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.title h1 {
+    font-size: 40px;
+}
+
+.title p {
+    font-size: 15px;
+    margin: 1px 0 30px;
+    padding-top: 10px;
+}
+
+/*- main css-*/
+main p {
+    line-height: 1.8em;  
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: .02em;
+    padding: 10px 0px;
+}
+
+.intro{
+    padding: 20px;
+    text-align: center;
+    max-width: 650px; 
+    margin: auto;
+}
+.main-article{    
+    justify-content: center;
+    margin: auto;
+    
+}
+article .event article{
+    padding: 10px 0px;
+}
+main .container {
+    display: flex;
+    justify-content: center;    
+    border-radius: 5px;
+    background-color: rgba(228, 225, 225, 0.3);
+    max-width: 1200px;
+    margin: 20px auto;   
+    flex-flow: row wrap; 
+}
+
+.event {
+    padding: 10px;
+    border-radius: 5px;
+   
+}
+main .container .event img{
+    width: 350px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.event h2 {
+    color: #060;
+}
+
+.event p {
+    color:black;
+}
+.description{
+    max-width: 300px;
+}
+
+
+.event .time {
+    font-size: 1.2em;
+    color: #007acc;
+}
+
+/*- form css-*/
+.form-head{
+    background-color:rgba(228, 225, 225, 0.3);
+}
+.form-head h2{
+    text-align: center;
+    padding-top: 10px;
+    color: #060;
+}
+.form-head p{
+    text-align: center;
+    margin: 15px auto ;
+    padding: 5px;
+    max-width: 400px;
+
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+
+.form-container input{
+    margin:6px 3px;
+    padding: 1em;
+    background: #fff;
+    border: 1px solid rgba(34, 33, 33, 0.12);
+    font-family: inherit;
+    font-size: 15px;
+    line-height: normal;
+    outline: none;
+}
+.form-container form textarea{
+    padding: 5px;
+}
+
+.form-container .submit-btn{
+    padding: 10px 20px;
+    border: 1px solid #000;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    margin: 15px;
+    border-radius: 3px;
+   }
+
+.form-container .submit-btn:hover{
+    color: #fff;
+    background-color: #000;
+   
+   
+}
+
+/*- footer css-*/
+footer{
+    border-top: 1px solid grey;
+    padding: 20PX;   
+    text-align: center;
+}
+footer .social-media{
+    margin-bottom: 20px;
+}
+footer .social-media img{
+    width: 30px;
+    height: auto;
+    margin: 5px;
+}
+footer p{
+    margin: 20PX 0PX;
+}
+
+@media(max-width: 420px){
+    .nav-link{        
+        text-align: center;
+        
+    }
+    .nav-link ul li a{
+        font-size: 12px;
+        font-weight: 700;
+        
+    }
+    .row{
+        flex-direction: column;
+    }
+    .title {
+        min-height: 50vh;
+    }
+}
